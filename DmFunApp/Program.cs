@@ -1,5 +1,4 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
 
 namespace DmFunApp
 {
@@ -7,13 +6,11 @@ namespace DmFunApp
     {
         static void Main()
         {
-            HostApplicationBuilder builder = Host.CreateApplicationBuilder();
+            var services = new ServiceCollection();
 
-            RegisterServices(builder.Services);
+            RegisterServices(services);
 
-            using IHost host = builder.Build();
-
-            host.Services.GetService<IApp>()!.Run();
+            services.BuildServiceProvider().GetService<IApp>()!.Run();
         }
 
         static void RegisterServices(IServiceCollection services)
