@@ -11,4 +11,7 @@
     <PackageReference Include="Microsoft.Extensions.Hosting" Version="10.0.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <InternalsVisibleTo Include="DmFunApp.Tests" />
+  </ItemGroup>
 </Project>

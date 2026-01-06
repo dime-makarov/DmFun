@@ -5,6 +5,8 @@ VisualStudioVersion = 17.12.35527.113 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DmFunApp", "DmFunApp\DmFunApp.csproj", "{F826D3C6-E774-4FFE-92DA-752E0E069A2D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DmFunApp.Tests", "DmFunApp.Tests\DmFunApp.Tests.csproj", "{3C71F404-C76B-4D70-B67E-5BCE3D3A4359}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{F826D3C6-E774-4FFE-92DA-752E0E069A2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F826D3C6-E774-4FFE-92DA-752E0E069A2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F826D3C6-E774-4FFE-92DA-752E0E069A2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C71F404-C76B-4D70-B67E-5BCE3D3A4359}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C71F404-C76B-4D70-B67E-5BCE3D3A4359}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C71F404-C76B-4D70-B67E-5BCE3D3A4359}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C71F404-C76B-4D70-B67E-5BCE3D3A4359}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
